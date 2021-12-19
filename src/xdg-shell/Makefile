@@ -15,7 +15,7 @@ xdg-shell.h: xdg-shell-unstable-v6.xml
 xdg-shell.o: xdg-shell.h xdg-shell.c
 
 xdg-shell-unstable-v6.xml:
-	curl -O $(URL)/unstable/xdg-shell/$@
+	curl -O $(URL)/plain/unstable/xdg-shell/$@
 
 install: libxdg-shell.a
 	install -Dm644 -t $(PREFIX)/include xdg-shell.h
