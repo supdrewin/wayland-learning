@@ -1,0 +1,5 @@
+libxdg-shell.a
+xdg-shell.c
+xdg-shell.h
+xdg-shell.o
+xdg-shell-unstable-v6.xml
